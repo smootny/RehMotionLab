@@ -1,0 +1,42 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.view {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+}
+
+#view1 { background: #1abc9c; }
+#view2 { background: #3498db; }
+#view3 { background: #9b59b6; }
+#view4 { background: #e74c3c; }
+#view5 { background: #f1c40f; }
