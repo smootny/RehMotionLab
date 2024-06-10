@@ -99,7 +99,7 @@ nav {
     background: transparent;
     position: absolute;
     bottom: 16rem;
-    right: 16rem;
+    right: 10rem;
     font-size: 30px;
     border: 2px solid white;
     color: white;
@@ -110,4 +110,91 @@ nav {
     background: rgba(255, 255, 255, 0.2);
     color:white;
     text-shadow: 0px 0px 18px rgba(255, 255, 255, 0.8);
+}
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+    width: 90rem;
+    height: auto;
+    justify-content: center;
+    align-items: start;
+    border: 2px solid white;
+    padding: 2rem;
+}
+
+.physio {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-image: linear-gradient(180deg, rgb(0 0 0 / 10%) 0%, rgb(0 0 0) 120%), url("./assets/physio.png");
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+}
+
+.traning {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-image: linear-gradient(180deg, rgb(0 0 0 / 10%) 0%, rgb(0 0 0) 120%), url("./assets/training.png");
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+}
+
+.consulting {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-image: linear-gradient(180deg, rgb(0 0 0 / 10%) 0%, rgb(0 0 0) 120%), url("./assets/consulting.png");
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+}
+
+.physio-caption{
+
+    font-size: 2.4rem;
+text-shadow: 0px 0px 18px rgba(255, 255, 255, 1);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.traning-caption {
+
+    font-size: 2.4rem;
+text-shadow: 0px 0px 18px rgba(255, 255, 255, 1);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.consulting-caption {
+
+    font-size: 2.4rem;
+text-shadow: 0px 0px 18px rgba(255, 255, 255, 1);
+    font-family: "Montserrat", sans-serif;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 14px 10px 14px;
+}
+
+.work-description {
+    font-size: 10px;
+    width: 64rem;
 }
