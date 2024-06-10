@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <title>RehabMotionLaboratory</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
-    <button class="nav-btn" data-target="view1">View 1</button>
-    <button class="nav-btn" data-target="view2">View 2</button>
-    <button class="nav-btn" data-target="view3">View 3</button>
-    <button class="nav-btn" data-target="view4">View 4</button>
-    <button class="nav-btn" data-target="view5">View 5</button>
+    <a class="nav-btn" data-target="view1">Start</a>
+    <a class="nav-btn" data-target="view2">Praca</a>
+    <a class="nav-btn" data-target="view3">Oferta</a>
+    <a class="nav-btn" data-target="view4">Cennik</a>
+    <a class="nav-btn" data-target="view5">Kontakt</a>
 </nav>
 
-<div class="view" id="view1">View 1 Content</div>
-<div class="view" id="view2">View 2 Content</div>
+<div class="view" id="view1">
+    <div class="gradient"><div class="title-container">
+    <h1 class="title">Reh.<br>Motion<br>Lab</h1>
+</div>
+        <p class="title-text">Witam Cię w świecie fitness gdzie dbamy o Twoja transformacje ciała i umysłu. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum ea eos expedita fugiat illum impedit, modi, molestias mollitia natus neque omnis reprehenderit veritatis voluptatem voluptatum! Accusamus numquam odit quaerat?</p>
+        <div class="button-container">
+            <button class='start' href="#view2">Zaczynajmy!</button>
+        </div>
+    </div>
+</div>
+
+<div class="view" id="view2">
+    <div class="work-container">
+        <div class="physio">
+            <p class="physio-caption">Fizjoterapia</p>
+            <p class="description">Odbuduj swoją sprawność i ciesz się zdrowiem dzięki profesjonalnym sesjom fizjoterapeutycznym. Nasze indywidualnie dopasowane programy rehabilitacyjne pomogą Ci złagodzić ból, poprawić mobilność i przyspieszyć powrót do pełni zdrowia. Zaufaj doświadczonemu specjaliście i zrób krok ku lepszemu samopoczuciu!</p>
+        </div>
+        <div class="traning">
+            <p class="traning-caption">Trening</p>
+            <p class="description">Osiągnij swoje cele fitness z spersonalizowanymi treningami personalnymi! Niezależnie, czy chcesz zbudować mięśnie, schudnąć czy poprawić ogólną kondycję, pomogę Ci zaplanować i realizować treningi dostosowane do Twoich indywidualnych potrzeb i możliwości. Z mną każdy trening przynosi widoczne efekty!</p>
+        </div>
+        <div class="consulting">
+            <p class="consulting-caption">Konsultacje</p>
+            <p class="description">Zadbaj o swoje zdrowie w sposób holistyczny dzięki naszym konsultacjom zdrowotnym. Oferujemy profesjonalne porady w zakresie zdrowego trybu życia, diety i profilaktyki zdrowotnej, które pomogą Ci utrzymać optymalne samopoczucie na co dzień. Skorzystaj z naszej wiedzy i doświadczenia, by żyć pełnią życia!</p>
+        </div>
+        <!-- Dodatkowy div dla ogólnego opisu, który wyświetli się pod trzema kolumnami -->
+        <div class="work-description">
+            <p>Oferuję profesjonalne sesje fizjoterapeutyczne, spersonalizowane treningi personalne oraz holistyczne konsultingi zdrowotne. Moje programy są indywidualnie dostosowane do potrzeb każdego klienta, pomagając w odbudowie sprawności, osiąganiu celów fitness i utrzymaniu zdrowego trybu życia. Korzystając z mojej wiedzy i doświadczenia, wspieram klientów w dążeniu do lepszego samopoczucia i optymalnej kondycji. Zapewniam profesjonalne porady i praktyczne rozwiązania dla osób na każdym etapie ich zdrowotnej podróży. Zadbaj o swoje zdrowie z zaufanym specjalistą i zacznij żyć pełnią życia.</p>
+        </div>
+    </div>
+</div>
+
 <div class="view" id="view3">View 3 Content</div>
 <div class="view" id="view4">View 4 Content</div>
 <div class="view" id="view5">View 5 Content</div>
